@@ -1,3 +1,4 @@
+@import '~highlight.js/styles/github.css';
 .docs-body {
     display: flex;
 
@@ -52,6 +53,44 @@
         padding: 20px 30px 20px 270px;
         width: 100vw;
         min-height: 100vh;
+
+        .docs-pageHeading {
+            border-bottom: 1px solid #ddd;
+            padding: 0 0 10px 0;
+            margin: 0 0 50px 0;
+        }
+
+        .docs-sections {
+            margin: 0 0 50px 0;
+        }
+
+        .docs-sectionHeading {
+            border-bottom: 1px solid #ddd;
+            margin: 0 0 35px 0;
+            padding: 0 0 10px 0;
+        }
+        
+        .docs-expandCode {
+            cursor: pointer;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+
+        .btn-copy {
+            position: absolute;
+            top: 30px;
+            right: 20px;
+            font-weight: bold;
+        }
+
+        .docs-sectionCopyCode {
+            position: relative;
+            display: block;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
     }
 }
 

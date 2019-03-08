@@ -1,21 +1,27 @@
-<h1>Buttons</h1>
-<h4>Basic Buttons</h4>
-<div class="d-flex">
-  <button class="sb-btn sb-btn-outline-primary sb-btn-normal mr-10">Basic Button</button> 
-  <button class="sb-btn sb-btn-outline-secondary sb-btn-normal mr-10">Secondary</button> 
-  <button class="sb-btn sb-btn-outline-tertiary sb-btn-normal mr-10">Tertiary</button> 
-  <button class="sb-btn sb-btn-outline-info sb-btn-normal mr-10">Info</button> 
-  <button class="sb-btn sb-btn-outline-success sb-btn-normal mr-10">Success</button> 
-  <button class="sb-btn sb-btn-outline-warning sb-btn-normal mr-10">Warning</button> 
-  <button class="sb-btn sb-btn-outline-error sb-btn-normal mr-10">Error</button> 
-</div>
+<!--Page Heading-->
+<h1 class="docs-pageHeading">
+  {{pageTitle}}
+</h1>
+<!--/Page Heading-->
+<div class="docs-sections" *ngFor="let section of sections;">
+  <h4 class="docs-sectionHeading">
+    {{section.title}}
+    <i class="fa fa-code text-gray docs-expandCode" (click)="section.expandCode = !section.expandCode" title="Toggle Code" tabindex="0"></i>
+  </h4> 
 
-<code class="prettyprint">
-  <button class="sb-btn sb-btn-outline-primary sb-btn-normal">Basic Button</button> 
-  <button class="sb-btn sb-btn-outline-secondary sb-btn-normal">Secondary</button> 
-  <button class="sb-btn sb-btn-outline-tertiary sb-btn-normal">Tertiary</button> 
-  <button class="sb-btn sb-btn-outline-info sb-btn-normal">Info</button> 
-  <button class="sb-btn sb-btn-outline-success sb-btn-normal">Success</button> 
-  <button class="sb-btn sb-btn-outline-warning sb-btn-normal">Warning</button> 
-  <button class="sb-btn sb-btn-outline-error sb-btn-normal">Error</button> 
-</code>
+  <!--Display Output-->
+  <div class="docs-sectionDemoCode" [innerHTML]="section.demoCode | keepHtml"></div>
+  <!--/Display Output-->
+
+  <!--Display Code-->
+  <div class="docs-sectionCopyCode" *ngIf="section.expandCode">
+    <!--Copy Code-->
+    <button ngxClipboard [cbContent]="section.copyCode" class="sb-btn sb-btn-primary sb-btn-xs fa fa-copy btn-copy"></button>
+    <!--/Copy Code-->
+    <pre>
+      <code [highlight]="section.copyCode"></code>
+    </pre>
+  </div>
+  <!--/Display Code-->
+  
+</div>
