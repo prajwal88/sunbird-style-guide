@@ -14,72 +14,72 @@ export class LabelsComponent implements OnInit {
       expandCode: false,
       title: 'Basic Labels',
       demoCode: `
-      <button class="sb-btn sb-btn-outline-primary sb-btn-normal mr-10">Basic Button</button>
-      <button class="sb-btn sb-btn-outline-secondary sb-btn-normal mr-10">Secondary</button>
-      <button class="sb-btn sb-btn-outline-tertiary sb-btn-normal mr-10">Tertiary</button>
-      <button class="sb-btn sb-btn-outline-info sb-btn-normal mr-10">Info</button>
-      <button class="sb-btn sb-btn-outline-success sb-btn-normal mr-10">Success</button>
-      <button class="sb-btn sb-btn-outline-warning sb-btn-normal mr-10">Warning</button>
-      <button class="sb-btn sb-btn-outline-error sb-btn-normal mr-10">Error</button>
+      <label class="sb-label sb-label-outline-primary sb-label-normal mr-10">Basic label</label>
+      <label class="sb-label sb-label-outline-secondary sb-label-normal mr-10">Secondary</label>
+      <label class="sb-label sb-label-outline-tertiary sb-label-normal mr-10">Tertiary</label>
+      <label class="sb-label sb-label-outline-info sb-label-normal mr-10">Info</label>
+      <label class="sb-label sb-label-outline-success sb-label-normal mr-10">Success</label>
+      <label class="sb-label sb-label-outline-warning sb-label-normal mr-10">Warning</label>
+      <label class="sb-label sb-label-outline-error sb-label-normal mr-10">Error</label>
       `,
       copyCode: `
-      <button class="sb-btn sb-btn-outline-primary sb-btn-normal">Basic Button</button>
-      <button class="sb-btn sb-btn-outline-secondary sb-btn-normal">Secondary</button>
-      <button class="sb-btn sb-btn-outline-tertiary sb-btn-normal">Tertiary</button>
-      <button class="sb-btn sb-btn-outline-info sb-btn-normal">Info</button>
-      <button class="sb-btn sb-btn-outline-success sb-btn-normal">Success</button>
-      <button class="sb-btn sb-btn-outline-warning sb-btn-normal">Warning</button>
-      <button class="sb-btn sb-btn-outline-error sb-btn-normal">Error</button>
+      <label class="sb-label sb-label-outline-primary sb-label-normal">Basic label</label>
+      <label class="sb-label sb-label-outline-secondary sb-label-normal">Secondary</label>
+      <label class="sb-label sb-label-outline-tertiary sb-label-normal">Tertiary</label>
+      <label class="sb-label sb-label-outline-info sb-label-normal">Info</label>
+      <label class="sb-label sb-label-outline-success sb-label-normal">Success</label>
+      <label class="sb-label sb-label-outline-warning sb-label-normal">Warning</label>
+      <label class="sb-label sb-label-outline-error sb-label-normal">Error</label>
       `
     },
     {
       expandCode: false,
-      title: 'Button States',
+      title: 'label States',
       demoCode: `
-      <button class="sb-btn sb-btn-disabled sb-btn-normal mr-10">Primary Disable</button>
-      <button class="sb-btn sb-btn-outline-disabled sb-btn-normal">Basic Button Disable</button>
+      <label class="sb-label sb-label-disabled sb-label-normal mr-10">Primary Disable</label>
+      <label class="sb-label sb-label-outline-disabled sb-label-normal">Basic label Disable</label>
       `,
       copyCode: `
-      <button class="sb-btn sb-btn-disabled sb-btn-normal">Primary Disable</button>
-      <button class="sb-btn sb-btn-outline-disabled sb-btn-normal">Basic Button Disable</button>
+      <label class="sb-label sb-label-disabled sb-label-normal">Primary Disable</label>
+      <label class="sb-label sb-label-outline-disabled sb-label-normal">Basic label Disable</label>
       `
     },
     {
       expandCode: false,
-      title: 'Colored Buttons',
+      title: 'Colored labels',
       demoCode: `
-      <button class="sb-btn sb-btn-primary sb-btn-normal mr-10">Primary Button</button>
-      <button class="sb-btn sb-btn-secondary sb-btn-normal mr-10">Secondary</button>
-      <button class="sb-btn sb-btn-tertiary sb-btn-normal mr-10">Tertiary</button>
-      <button class="sb-btn sb-btn-warning sb-btn-normal mr-10">warning</button>
-      <button class="sb-btn sb-btn-error sb-btn-normal mr-10">Error</button>
-      <button class="sb-btn sb-btn-info sb-btn-normal mr-10">Info</button>
+      <label class="sb-label sb-label-primary sb-label-normal mr-10">Primary label</label>
+      <label class="sb-label sb-label-secondary sb-label-normal mr-10">Secondary</label>
+      <label class="sb-label sb-label-tertiary sb-label-normal mr-10">Tertiary</label>
+      <label class="sb-label sb-label-warning sb-label-normal mr-10">warning</label>
+      <label class="sb-label sb-label-error sb-label-normal mr-10">Error</label>
+      <label class="sb-label sb-label-info sb-label-normal mr-10">Info</label>
       `,
       copyCode: `
-      <button class="sb-btn sb-btn-primary sb-btn-normal">Primary Button</button>
-      <button class="sb-btn sb-btn-secondary sb-btn-normal">Secondary</button>
-      <button class="sb-btn sb-btn-tertiary sb-btn-normal">Tertiary</button>
-      <button class="sb-btn sb-btn-warning sb-btn-normal">warning</button>
-      <button class="sb-btn sb-btn-error sb-btn-normal">Error</button>
-      <button class="sb-btn sb-btn-info sb-btn-normal">Info</button>
+      <label class="sb-label sb-label-primary sb-label-normal">Primary label</label>
+      <label class="sb-label sb-label-secondary sb-label-normal">Secondary</label>
+      <label class="sb-label sb-label-tertiary sb-label-normal">Tertiary</label>
+      <label class="sb-label sb-label-warning sb-label-normal">warning</label>
+      <label class="sb-label sb-label-error sb-label-normal">Error</label>
+      <label class="sb-label sb-label-info sb-label-normal">Info</label>
       `
     },
     {
       expandCode: false,
-      title: 'Button Sizes',
+      title: 'label Sizes',
       demoCode: `
-      <button class="sb-btn sb-btn-primary sb-btn-xs mr-10">mini</button>
-      <button class="sb-btn sb-btn-primary sb-btn-normal mr-10">normal</button>
-      <button class="sb-btn sb-btn-primary sb-btn-sm mr-10">small</button>
-      <button class="sb-btn sb-btn-primary sb-btn-md mr-10">medium</button>
-      <button class="sb-btn sb-btn-primary sb-btn-lg mr-10">large</button>
+      <label class="sb-label sb-label-primary sb-label-xs mr-10">mini</label>
+      <label class="sb-label sb-label-primary sb-label-normal mr-10">normal</label>
+      <label class="sb-label sb-label-primary sb-label-sm mr-10">small</label>
+      <label class="sb-label sb-label-primary sb-label-md mr-10">medium</label>
+      <label class="sb-label sb-label-primary sb-label-lg mr-10">large</label>
       `,
       copyCode: `
-      <button class="sb-btn sb-btn-primary sb-btn-xs">mini</button>
-      <button class="sb-btn sb-btn-primary sb-btn-normal">normal</button>
-      <button class="sb-btn sb-btn-primary sb-btn-sm">small</button>
-      <button class="sb-btn sb-btn-primary sb-btn-md">medium</button>
-      <button class="sb-btn sb-btn-primary sb-btn-lg">large</button>
+      <label class="sb-label sb-label-primary sb-label-xs">mini</label>
+      <label class="sb-label sb-label-primary sb-label-normal">normal</label>
+      <label class="sb-label sb-label-primary sb-label-sm">small</label>
+      <label class="sb-label sb-label-primary sb-label-md">medium</label>
+      <label class="sb-label sb-label-primary sb-label-lg">large</label>
       `
     }
   ];

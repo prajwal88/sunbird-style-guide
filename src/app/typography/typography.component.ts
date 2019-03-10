@@ -9,9 +9,7 @@ export class TypographyComponent implements OnInit {
   constructor() { }
 
   pageTitle = 'Typography';
-  sections = [
-    
-  ];
+  sections = [];
 
   ngOnInit() {
   }
