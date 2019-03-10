@@ -17,7 +17,6 @@ import { Ng2IziToastModule } from 'ng2-izitoast';
 import { EscapeHtmlPipe } from './pipes/keep-html.pipe';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { TemplateComponent } from './template/template.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { ModalsComponent } from './modals/modals.component';
 import { LabelsComponent } from './labels/labels.component';
