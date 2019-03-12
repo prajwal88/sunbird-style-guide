@@ -35,6 +35,60 @@ export class ButtonsComponent implements OnInit {
     },
     {
       expandCode: false,
+      title: 'Button Groups',
+      demoCode: `
+      <div class="btn-group">
+      <button class="sb-btn sb-btn-normal"><i class="plus icon"></i></button>
+      <button class="sb-btn sb-btn-normal active"><i class="plus icon"></i></button>
+      </div>
+      `,
+      copyCode: `
+      <div class="btn-group">
+      <button class="sb-btn sb-btn-normal"><i class="plus icon"></i></button>
+      <button class="sb-btn sb-btn-normal active"><i class="plus icon"></i></button>
+      </div>
+      `
+    },
+    {
+      expandCode: false,
+      title: 'Dashed Buttons',
+      demoCode: `
+      <button class="sb-btn sb-btn-normal sb-btn-dashed">Basic Button</button>
+      `,
+      copyCode: `
+      <button class="sb-btn sb-btn-normal sb-btn-dashed">Basic Button</button>
+      `
+    },
+    {
+      expandCode: false,
+      title: 'Icon Buttons',
+      demoCode: `
+      <button class="sb-btn sb-btn-normal sb-btn-primary sb-right-icon-btn">right icon button <i class="home icon"></i></button>
+<button class="sb-btn sb-btn-normal sb-btn-primary sb-left-icon-btn"><i class="home icon"></i>left icon button </button>
+      `,
+      copyCode: `
+      <button class="sb-btn sb-btn-normal sb-btn-primary sb-right-icon-btn">right icon button <i class="home icon"></i></button>
+<button class="sb-btn sb-btn-normal sb-btn-primary sb-left-icon-btn"><i class="home icon"></i>left icon button </button>
+      `
+    },
+    {
+      expandCode: false,
+      title: 'Loading Button',
+      demoCode: `
+      <button class="sb-btn sb-btn-loading-spinner sb-btn-primary">
+    <div class="loading-spinner" role="status" aria-hidden="true"></div>
+    Primary loading
+  </button>
+      `,
+      copyCode: `
+      <button class="sb-btn sb-btn-loading-spinner sb-btn-primary">
+    <div class="loading-spinner" role="status" aria-hidden="true"></div>
+    Primary loading
+  </button>
+      `
+    },
+    {
+      expandCode: false,
       title: 'Button States',
       demoCode: `
       <button class="sb-btn sb-btn-disabled sb-btn-normal mr-10">Primary Disable</button>
@@ -69,11 +123,11 @@ export class ButtonsComponent implements OnInit {
       expandCode: false,
       title: 'Button Sizes',
       demoCode: `
-      <button class="sb-btn sb-btn-primary sb-btn-xs mr-10">mini</button>
-      <button class="sb-btn sb-btn-primary sb-btn-normal mr-10">normal</button>
-      <button class="sb-btn sb-btn-primary sb-btn-sm mr-10">small</button>
-      <button class="sb-btn sb-btn-primary sb-btn-md mr-10">medium</button>
-      <button class="sb-btn sb-btn-primary sb-btn-lg mr-10">large</button>
+      <button class="sb-btn sb-btn-primary sb-btn-xs">mini</button>
+      <button class="sb-btn sb-btn-primary sb-btn-normal">normal</button>
+      <button class="sb-btn sb-btn-primary sb-btn-sm">small</button>
+      <button class="sb-btn sb-btn-primary sb-btn-md">medium</button>
+      <button class="sb-btn sb-btn-primary sb-btn-lg">large</button>
       `,
       copyCode: `
       <button class="sb-btn sb-btn-primary sb-btn-xs">mini</button>

@@ -22,6 +22,12 @@ import { ModalsComponent } from './modals/modals.component';
 import { LabelsComponent } from './labels/labels.component';
 import { TypographyComponent } from './typography/typography.component';
 import { OverviewComponent } from './overview/overview.component';
+import { SearchComponent } from './search/search.component';
+import { TablesComponent } from './tables/tables.component';
+import { ColorsComponent } from './colors/colors.component';
+import { LoadersComponent } from './loaders/loaders.component';
+import { FormsComponent } from './forms/forms.component';
+import { ToastersComponent } from './toasters/toasters.component';
 
 
 /**
@@ -47,7 +53,13 @@ export function hljsLanguages() {
     ModalsComponent,
     LabelsComponent,
     TypographyComponent,
-    OverviewComponent
+    OverviewComponent,
+    SearchComponent,
+    TablesComponent,
+    ColorsComponent,
+    LoadersComponent,
+    FormsComponent,
+    ToastersComponent
   ],
   imports: [
     BrowserModule,
